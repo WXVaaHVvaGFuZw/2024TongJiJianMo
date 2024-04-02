@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Website</title>
+</head>
+
+<body>
+    <header>
+        <h1>2024年（第十届）全国大学生统计建模大赛</h1>
+    </header>
+
+    <div class="search-container" id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <select id="searchEngine">
+            <option value="https://www.bing.com/search?q=">Bing</option>
+            <option value="https://www.baidu.com/s?wd=">Baidu</option>
+            <option value="https://www.google.com/search?q=">Google</option>
+        </select>
+        <button onclick="search()">Search</button>
+    </div>
+
+    <div class="container">
+        <div class="column narrow">
+            <p style="text-indent: 2em;">本届大赛主题为“大数据与人工智能时代的统计研究”，参赛队围绕主题自拟题目撰写论文。</p>         
+            <p style="text-indent: 2em;">各参赛队须于5月15日前完成论文撰写和“知网”查重。论文正文字符数（计空格）不得超过14000字，查重率不得超过20%。</p>
+            <p style="text-indent: 2em;">提交参赛论文等材料。各参赛队须于5月15日18:00前在大赛平台提交参赛材料，包括：论文全文、知网查重报告、承诺书、数据及其他参赛材料。</p>
+            <h2>距离提交论文还剩：</h2>
+            <h2 id="countdown"></h2>
+        </div>
+
+        <div class="column wide">
+            
+            <h2>统计建模大赛相关网站</h2>
+            <div class="button-grid">
+                <button id="webBottom" onclick="navigateTo('http://tjjmds.ai-learning.net/')"><span>统计建模大赛官网</span></button>
+                <button id="webBottom" onclick="navigateTo('http://tjjmds.ai-learning.net/dszy1.jhtml')"><span>大赛资源</span></button>
+                <button id="webBottom" onclick="navigateTo('http://cmswebsite.ai-learning.net/u/cms/tjjmds/202402/26150702lvf8.docx')"><span>参赛须知</span></button>
+                <button id="webBottom" onclick="navigateTo('https://www.stats.gov.cn/')"><span>国家统计局</span></button>
+                
+            </div>
+
+            <h2>算法、论文相关网站</h2>
+            <div class="button-grid">
+                <button id="webBottom2" onclick="navigateTo('https://www.csdn.net/')"><span>CSDN</span></button>
+                <button id="webBottom2" onclick="navigateTo('https://lib.hbut.edu.cn/info/1026/1035.htm')"><span>远程访问 CNKI</span></button>
+                <button id="webBottom2" onclick="navigateTo('https://baoyueai.com/')"><span>包阅</span></button>
+                <button id="webBottom2" onclick="navigateTo('https://kimi.moonshot.cn/')"><span>Kimi</span></button>
+                <button id="webBottom2" onclick="navigateTo('https://www.humata.ai/')"><span>Humata</span></button> 
+            </div>
+
+            <h2>论文写作、排版区</h2>
+            <div class="button-grid">
+                <button id="webBottom1" onclick="navigateTo('https://docs.qq.com/doc/DY1NJRURmd2JIbGd5')"><span>Y文档1</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://docs.qq.com/doc/DY1hJSGt3dFlnYWtm')"><span>D文档2</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://docs.qq.com/doc/DY0hQenFacEFwU05K')"><span>Z文档3</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://docs.qq.com/doc/DY2d5UHBJc3VzeEdv')"><span>论文1</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://docs.qq.com/doc/DY3ZBSVBwUUF5SElD')"><span>论文2</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://docs.qq.com/doc/DY1F6RUtuT1B2RU5X')"><span>论文3</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://docs.qq.com/doc/DY2FKZG1la0xvU05q')"><span>Word论文初稿</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://docs.qq.com/doc/DY0xxZnRmTEZPQXZk')"><span>Word论文终稿</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://www.overleaf.com/2221791622bmrkwmmtvymm#69d665')"><span>LaTeX排版初稿</span></button>
+                <button id="webBottom1" onclick="navigateTo('https://www.overleaf.com/read/dxnjmpwbcftn#4fca05')"><span>PDF论文终稿</span></button>
+            </div>
+
+        </div>
+       
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <h4>余卓航<span class="space"></span>董秀兰<span class="space"></span>周玉环</h4>
+</footer>
+</html>
