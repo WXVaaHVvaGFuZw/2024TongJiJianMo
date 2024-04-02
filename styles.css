@@ -16,7 +16,6 @@ header {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 0px 0;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -47,7 +46,6 @@ section {
 
 button {
     padding: 5px 10px;
-    cursor: pointer;
 }
 
 .container {
@@ -59,7 +57,7 @@ button {
 .column {
     padding: 20px;
     border: 1px solid #ccc;
-    margin: 15px;
+    margin-left: 15px;
     background-color: #f9f9f9;
 }
 
@@ -77,12 +75,14 @@ button {
     width: 196px;
     height: 50px;
     margin-left: 35px;
+    margin-bottom: 5px;
 }
 
 #webBottom2 {
     width: 150px;
     height: 50px;
     margin-left: 35px;
+    margin-bottom: 5px;
 }
 
 #webBottom1 {
@@ -135,7 +135,6 @@ button:hover span:after {
     right: 0;
 }
 
-
 .space {
-    margin-right: 50px; /* 可以根据需要调整间距大小 */
+    margin-right: 50px;
 }
